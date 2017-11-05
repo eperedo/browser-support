@@ -70,9 +70,9 @@ export default {
 	text-align: center;
 
 	.btn {
-		background-color: #25a0d4;
+		background-color: #105D7A;
 		border-radius: 2px;
-		border: 1px sold #25a0d4;
+		border: 1px solid #25a0d4;
 		color: #fff;
   	font-size: 12px;
   	font-weight: bold;
