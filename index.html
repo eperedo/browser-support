@@ -30,12 +30,24 @@
 				background-color: #253e52;
 				font-family: 'Lato';
 			}
+			.thanks {
+				color: #fff;
+				margin-bottom: 0;
+				text-align: center;
+			}
+			.thanks > a:visited {
+				color: #fff;
+			}
 		</style>
   </head>
   <body>
     <noscript>
       This is your fallback content in case JavaScript fails to load.
-    </noscript>
+		</noscript>
+		<p class="thanks">
+			<a target="_blank" rel="noopener"
+				href="https://sketchrepo.com/free-sketch/browser-not-supported-modal-freebie/">Design from here</a>
+		</p>
     <div id="app"></div>
     <!-- Todo: only include in production -->
     <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
